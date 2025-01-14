@@ -1,8 +1,8 @@
 using System;
 
-class Program
+class SomaProgressiva
 {
-    static void Main()
+    public static void Executar()
     {
         int INDICE = 13, SOMA = 0, K = 0;
 
@@ -12,6 +12,6 @@ class Program
             SOMA = SOMA + K;
         }
 
-        Console.WriteLine("Valor de SOMA: " + SOMA);
+        Console.WriteLine($"Valor final da SOMA: {SOMA}");
     }
 }
